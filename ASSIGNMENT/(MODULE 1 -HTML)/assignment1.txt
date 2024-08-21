@@ -1,0 +1,71 @@
+                                                      ASSIGNMENT -1 
+
+
+*  Are the HTML tags and elements the same thing ?
+-->  no html tags and the elements are not the same thing
+
+*  What are tags and attributes in HTML?
+-->  a tag is a way of representing an html element in the program
+, while an attribute is a way of describing the characteristics of
+an html elements
+
+*  What are void elements in HTML?
+--> area,base,br,col,command,embed,hr,img,input,keygen,link,meta ,source are void elements
+
+*   What are HTML Entities?
+--> a pattern of characters that can represent another character in the html
+
+*   What are different types of lists in HTML? 
+--> orderlist,unorderlist,description list
+
+*   What is the ‘class’ attribute in HTML? 
+--> specifies 1 or  multiple class names for element
+
+*    What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML 
+elements?
+-->  id is uniqe attribute its use for single element 
+and class is use multiple time for same elements
+
+*    What are the various formatting tags in HTML?
+--> <b>.<u>,<sub>,<sup>,<i>
+
+*   How is Cell Padding different from Cell Spacing? 
+--> cellpadding defines the space present between a table cells border and content
+    cellspacing defines the space presents between individual adjacent cells
+
+*   How can we club two or more rows or columns into a single row or column in an HTML 
+table? 
+--> using colspan and rowspan attribute
+
+*   What is the difference between a block-level element and an inline element
+--> inline elements use only line text and block level tag block full line of the text
+
+*   How to create a Hyperlink in HTML? 
+--> using anchor tag <a href=""
+<img src=""
+ 
+*   What is the use of an iframe tag?
+-->  to make page in a page
+
+*   What is the use of a span tag? Explain with example?   
+-->  span tage are used for inline and styling 
+example - <p>  my sister has <span style=" color: red" >red<span/>hairs .</p> 
+
+*   How to insert a picture into a background image of a web page?
+-->  using <img tag and using url tag in style
+
+*   How are active links different from normal links?
+--> a normal link is just a line of code that contains a pointer to another resource , an active link is that line of code in 
+action, opening that other resource
+
+*   What are the different tags to separate sections of text? 
+-->  <br> tag and <p>paragraph tag
+
+*    What is SVG?
+-->  scalable vector graphics
+
+*    What is difference between HTML and XHTML? 
+--> html - hypertext markup language and xhtml- is extensible hypertext markup language
+
+*   What are logical and physical tags in HTML?
+--> used to format text and improve the user experince of website       
