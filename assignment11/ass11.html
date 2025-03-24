@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables Theme</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --text-color: #ffffff;
+            --border-color: #2980b9;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        .header, .footer {
+            background-color: var(--primary-color);
+            padding: 20px;
+            border-bottom: 3px solid var(--border-color);
+        }
+
+        .footer {
+            border-top: 3px solid var(--border-color);
+            border-bottom: none;
+        }
+
+        .content {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Website</h1>
+    </div>
+    <div class="content">
+        <p>Welcome to my simple webpage with CSS variables.</p>
+    </div>
+    <div class="footer">
+        <p>Footer Section</p>
+    </div>
+</body>
+</html>

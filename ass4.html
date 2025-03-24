@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header li {
+            list-style: none;
+            display: inline;
+            padding: 5px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: rgb(14, 4, 4);
+        }
+
+        .container .logo {
+            color: chartreuse;
+            font-size: larger;
+            position: absolute;
+            left: 5px;
+
+        }
+
+        header .container {
+
+            display: flex;
+            justify-content: space-around;
+        }
+
+        header .container .xx {
+            justify-content: center;
+            position: absolute;
+            left: 30%;
+
+
+        }
+
+        header .container button {
+            position: absolute;
+            right: 10%;
+        }
+
+        header li :hover {
+            background-color: aqua;
+            transition: 0.5s;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">TRAVELX</div>
+            <div class="xx">
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">GALLERY</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </div>
+            <div class="button"><button>SEARCH</button></div>
+        </div>
+    </header>
+    
+
+
+</body>
+
+</html>
